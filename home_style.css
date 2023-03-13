@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    text-decoration: none;
+    color: #FF0FFF;
+}
+
+.logo {
+    width: 40vw;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.menu {
+    font-family: 'Press Start 2P', cursive;
+    color: inherit;
+    font-size: 20px;
+    margin-left: 10vh;
+}
+
+.hover:hover {
+    text-decoration: underline;
+}
+
+.center {
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

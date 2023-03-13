@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    text-decoration: none;
+    color: #FF0FFF;
+}
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+    color: #FF0FFF;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.help {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: #FF0FFF;
+    font-size: 14px;
+}
+
+.content {
+    font-family: 'Press Start 2P', cursive;
+    color: #FF0FFF;
+    font-size: 20px;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    line-height: 160%;
+}
+
+.hover:hover {
+    text-decoration: underline;
+}
+
+.big {
+    font-size: 30px;
+}

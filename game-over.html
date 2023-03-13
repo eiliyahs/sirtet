@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="help_style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="center">
+        <div><h1 class="title">GAME OVER</h1></div>
+        <div><p class="content">
+            FINAL SCORE:  <span id="score"></span>
+        </p></div>
+        <div><p class="content">
+            Would you like to play again?
+        </p></div>
+        <p class="help big"><a class="hover" href="game.html">YES</a></p>
+        <p class="help big"><a class="hover" href="index.html">NO</a></p>
+    </div>
+</body>
+<script>
+    // Retrieve the final score from local storage
+    var score = localStorage.getItem("finalScore");
+
+    // Update the HTML element that displays the score
+    document.getElementById("score").innerHTML = score;
+
+</script>
+</html>
